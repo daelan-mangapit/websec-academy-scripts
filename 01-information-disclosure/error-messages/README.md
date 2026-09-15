@@ -1,8 +1,8 @@
 # Lab: Information disclosure in error messages
 
-**Topic:** Information Disclosure
-**Difficulty:** Apprentice
-**Lab:** https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages
+- **Topic:** Information Disclosure
+- **Difficulty:** Apprentice
+- **Lab:** https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages
 
 ## The vulnerability
 The product page loads details from a `productId` query parameter that the
