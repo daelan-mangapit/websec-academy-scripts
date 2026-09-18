@@ -27,12 +27,12 @@ the error, then searches the response body against a list of known
 framework/version regex patterns (Struts, Apache, nginx, PHP, and so on). If
 one matches, it reports the disclosed version; otherwise it reports clean.
 
-## Usage
-
-    python3 solve.py https://YOUR-LAB-ID.web-security-academy.net
-
 ## Remediation
 Return generic, non-descriptive error pages to users and disable verbose
 stack traces / debug mode in production — log the detail server-side where
 users can't see it. And keep the framework patched: the disclosed version
 being exploitable at all is the deeper problem the leak exposes.
+
+## Usage
+
+    python3 solve.py https://YOUR-LAB-ID.web-security-academy.net
