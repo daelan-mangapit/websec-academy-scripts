@@ -4,9 +4,9 @@ Python scripts that solve [PortSwigger Web Security Academy](https://portswigger
 
 ## Why this exists
 
-I learn security best by building, not by clicking through. Solving a lab by hand in Burp teaches the click-path; writing a script that solves it forces me to understand the vulnerability well enough to codify it — the mechanism, the edge cases, and why a given fix actually closes it.
+This project proceeds from a straightforward premise: security concepts are internalized most effectively through implementation rather than interaction. Completing a laboratory exercise by hand in Burp Suite demonstrates a procedure; reconstructing that solution as a script requires comprehending the underlying vulnerability in sufficient depth to express it programmatically — its mechanism, its boundary conditions, and the reasoning behind an effective remediation.
 
-The goal isn't novel tooling — plenty of these checks exist in mature scanners. It's demonstrable understanding: each script is proof I understand a vulnerability class from the ground up, and the collection doubles as a small, reusable web-assessment toolkit. Every script was written and debugged from scratch, and I can walk through any line of it.
+The intent is not to contribute novel tooling; equivalent detection logic is already well established in mature scanners. The intent is to evidence comprehension. Each script constitutes a demonstration that the corresponding vulnerability class is understood from first principles, while the collection as a whole functions as a compact, reusable web-assessment toolkit. Every script was authored and debugged from scratch, and I can account for its logic in full.
 
 ## How it's organized
 
